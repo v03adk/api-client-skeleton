@@ -1,0 +1,32 @@
+{
+    "name": "v03adk/api-client-skeleton",
+    "description": "",
+    "license": "MIT",
+    "type": "library",
+
+    "require": {
+        "php": ">=5.3",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+
+    "require-dev": {
+        "ext-curl": "*"
+    },
+
+    "keywords": [
+
+    ],
+
+    "authors": [
+        {
+            "name":     "v03adk",
+            "email":    ""
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Api\\Client\\": "src/"
+        }
+    }
+}
